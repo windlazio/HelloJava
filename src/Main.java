@@ -1,4 +1,5 @@
 import com.qmulux.development.MyThread;
+import com.qmulux.development.MyThreadRunnable;
 import com.qmulux.development.MyUtilTool;
 
 public class Main {
@@ -8,8 +9,12 @@ public class Main {
         MyUtilTool myUtilTool=new MyUtilTool();
         myUtilTool.SayHello();
 
-        MyThread myThread=new MyThread();
-        myThread.run();
+//        MyThreadRunnable myThreadRunnable=new MyThreadRunnable();
+//        myThreadRunnable.run();
+//        //myThreadRunnable.start();
+//
+//        MyThread myThread=new MyThread();
+//        myThread.start();
 
         while(true);
     }
